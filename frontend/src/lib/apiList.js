@@ -1,4 +1,4 @@
-export const server = "http://localhost:4444";
+export const server = "https://simple-job-portall-web-base-app.onrender.com";
 
 const apiList = {
   login: `${server}/auth/login`,
