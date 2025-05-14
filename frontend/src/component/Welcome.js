@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     position: "relative",
     [theme.breakpoints.up("md")]: {
-      minHeight: "80vh",
+      minHeight: "100%",
       flexDirection: "row",
       justifyContent: "space-between",
       padding: theme.spacing(10, 8),
@@ -269,7 +269,7 @@ const Welcome = () => {
           </div>
         </div>
         <img
-       src="/NA_October_10.jpg"
+          src="/NA_October_10.jpg"
           alt="Job Portal Illustration"
           className={classes.heroImage}
         />
