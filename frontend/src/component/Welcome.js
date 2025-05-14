@@ -269,7 +269,7 @@ const Welcome = () => {
           </div>
         </div>
         <img
-          src="https://v0.blob.com/job-portal-hero.svg"
+       src="/NA_October_10.jpg"
           alt="Job Portal Illustration"
           className={classes.heroImage}
         />

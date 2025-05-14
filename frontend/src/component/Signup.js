@@ -75,7 +75,7 @@ const useStyles = makeStyles((theme) => ({
   illustration: {
     width: "100%",
     maxWidth: "450px",
-    height: "auto",
+    height: "80%",
     position: "relative",
     zIndex: 2,
     filter: "drop-shadow(0 10px 20px rgba(0,0,0,0.15))",
@@ -86,7 +86,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    maxHeight: "90vh",
+    maxHeight: "100%",
     overflowY: "auto",
     "&::-webkit-scrollbar": {
       width: "8px",
@@ -499,7 +499,7 @@ const Signup = (props) => {
           <div className={`${classes.shape} ${classes.shape1}`}></div>
           <div className={`${classes.shape} ${classes.shape2}`}></div>
           <img
-            src="https://v0.blob.com/signup-illustration.svg"
+            src="/Sign up.jpg"
             alt="Signup Illustration"
             className={classes.illustration}
           />

@@ -266,7 +266,7 @@ const Login = (props) => {
           <div className={`${classes.shape} ${classes.shape1}`}></div>
           <div className={`${classes.shape} ${classes.shape2}`}></div>
           <img
-            src="https://v0.blob.com/login-illustration.svg"
+            src="/Login.jpg"
             alt="Login Illustration"
             className={classes.illustration}
           />
